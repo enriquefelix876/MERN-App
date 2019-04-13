@@ -4,7 +4,8 @@
   "description": "El Stack MERN, tiene como objetivo crear aplicaciones web modernas con Javascript como principal lenguaje tanto el Frontend como en el Backend y la Base de datos. En este curso crearemos un aplicación CRUD que es una Single Page Application o Aplicacion de una sola página utilizando Reactjs. y esta estará alojada en un servidor Nodejs que usara Express como framework del lado servidor y Mongodb como Base de datos.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/enriquefelix876/MERN-App#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }
