@@ -1,1 +1,2 @@
 # MERN-App
+El Stack MERN, tiene como objetivo crear aplicaciones web modernas con Javascript como principal lenguaje tanto el Frontend como en el Backend y la Base de datos. En este curso crearemos un aplicación CRUD que es una Single Page Application o Aplicacion de una sola página utilizando Reactjs. y esta estará alojada en un servidor Nodejs que usara Express como framework del lado servidor y Mongodb como Base de datos.
