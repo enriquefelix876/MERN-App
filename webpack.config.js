@@ -7,7 +7,9 @@ module.exports = {
     module: {
         rules: [
             {
-                use: 'babel-loader'
+                use: 'babel-loader',
+                test: /\.js$/,
+                exclude: /node_modules/
             }
         ]
     }
